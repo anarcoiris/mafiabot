@@ -1,0 +1,29 @@
+# Core del bot de Telegram
+python-telegram-bot>=21.6,<22.0   # librería oficial, basada en asyncio
+httpx>=0.27,<0.29                 # cliente HTTP requerido por python-telegram-bot
+
+# HTTP / llamadas externas
+requests>=2.31.0                  # útil para APIs externas o compatibilidad
+
+# Servidor web para el dashboard
+Flask>=3.0.3                      # servidor web ligero
+Werkzeug>=3.0.3                   # dependencia de Flask, mejor fijarlo
+
+# Programación de tareas
+APScheduler>=3.10.4               # tareas periódicas (cron, intervalos)
+
+# Base de datos
+SQLAlchemy>=2.0.32                # ORM potente para DB relacional
+tinydb>=4.8.0                     # alternativa ligera (JSON local)
+
+# Utilidades
+python-dotenv>=1.0.1              # manejo de variables de entorno
+loguru>=0.7.2                     # logging robusto y elegante
+
+# Async y compatibilidad
+anyio>=4.4.0                      # backend async (usado por httpx y telegram-bot)
+asyncio>=3.4.3                    # compatibilidad explícita en Windows/Python 3.13
+
+# Opcional (depuración / seguridad)
+uvicorn>=0.30.6                   # servidor ASGI rápido (si quieres migrar dashboard)
+gunicorn>=23.0.0                  # producción en Linux
