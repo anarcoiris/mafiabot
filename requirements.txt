@@ -1,6 +1,7 @@
 # Core del bot de Telegram
 python-telegram-bot>=21.6,<22.0   # librería oficial, basada en asyncio
 httpx>=0.27,<0.29                 # cliente HTTP requerido por python-telegram-bot
+aiosqlite
 
 # HTTP / llamadas externas
 requests>=2.31.0                  # útil para APIs externas o compatibilidad
