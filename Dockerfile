@@ -23,9 +23,9 @@ EXPOSE 8006
 
 # Variables de entorno por defecto (puedes sobrescribirlas con -e)
 ENV MAFIA_DASH_PORT=8006
-ENV MAFIA_DASH_TOKEN=m7xDlwnRfq76pT7WrLr4HSIK2XOIqilwinjRRjKy43k=
+
 ENV MAFIA_DB_FILE=/mafiabot/mafia_complete.db
-ENV TELEGRAM_TOKEN=8209887249:AAE-EZzeAja8oklp8mQPvEHDBrWi8H8tm4g
+
 # Nombre del script principal (ajusta si tu entrypoint es otro .py)
 ENV MAIN_PY=main.py
 
