@@ -17,7 +17,24 @@ from flask import (
     Response, jsonify, current_app
 )
 
-from main import GAME, ROLES, clamp_phase_seconds, application
+# En lugar de importar main (evita import circular),
+# permitimos que main inicialice estos valores llamando init_dashboard(...)
+GAME = None
+ROLES = None
+clamp_phase_seconds = None
+application = None
+
+def init_dashboard(game_obj, roles_obj, clamp_fn, application_obj, dash_token=None, dash_port=None):
+    """Inicializa las referencias que dashboard necesita desde main sin importar main."""
+    global GAME, ROLES, clamp_phase_seconds, application, DASH_TOKEN, DASH_PORT
+    GAME = game_obj
+    ROLES = roles_obj
+    clamp_phase_seconds = clamp_fn
+    application = application_obj
+    if dash_token is not None:
+        DASH_TOKEN = dash_token
+    if dash_port is not None:
+        DASH_PORT = dash_port
 
 # ----------------------------
 # Config

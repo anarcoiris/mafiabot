@@ -63,6 +63,7 @@ from game_manager import GameManager
 DB_FILE = os.environ.get("MAFIA_DB", "mafia_complete.db")
 GAME = GameManager(DB_FILE)
 DASH_TOKEN = os.environ.get("MAFIA_DASH_TOKEN", "superlirio")  # minimal dashboard token
+DASH_PORT = int(os.environ.get("MAFIA_DASH_PORT", "8006"))
 
 SCHEMA_SQL = """
 PRAGMA foreign_keys = ON;
@@ -837,7 +838,6 @@ async def cmd_empezar(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Dashboard (Flask) - minimal token auth (PATCHED)
 # ----------------------------
 
-from dashboard import run_flask
 
 # ----------------------------
 # Startup: re-schedule jobs saved in DB/phase_deadline if any
@@ -886,6 +886,15 @@ def main():
     application.add_handler(CommandHandler("resyncpartida", cmd_resyncpartida))
     application.add_handler(CommandHandler("borrarpartida", cmd_borrarpartida))
     application.add_handler(CallbackQueryHandler(cb_handler))
+    # inicializar dashboard sin crear import circular
+    import dashboard
+    from dashboard import run_flask
+
+    dashboard.init_dashboard(GAME, ROLES, clamp_phase_seconds, application, dash_token=DASH_TOKEN, dash_port=DASH_PORT)
+    t = threading.Thread(target=dashboard.run_flask, daemon=True)
+    t.start()
+    logger.info("Dashboard running on port %s (token-protected)", DASH_PORT)
+
 
     # launch Flask dashboard thread
     t = threading.Thread(target=run_flask, daemon=True)
