@@ -780,12 +780,27 @@ async def job_resolve_votes_internal(context: ContextTypes.DEFAULT_TYPE, chat_id
     await resolve_votes_job(g, context.application)
 
 
+from datetime import datetime, timedelta
+
+LAST_REMINDER = {}  # chat_id -> datetime
+
 async def job_reminder(context: ContextTypes.DEFAULT_TYPE, chat_id: int):
     g = GAME.get_game(chat_id)
     if not g:
         return
+
+    now = datetime.utcnow()
+    last = LAST_REMINDER.get(chat_id)
+    if last and (now - last) < timedelta(minutes=120):  # no enviar más de una vez cada 5 minutos
+        return
+    LAST_REMINDER[chat_id] = now
+
     try:
-        await context.bot.send_message(chat_id, f"⏳ Recordatorio: fase *{g.phase}*. Jugadores vivos: {sum(1 for p in g.players.values() if p.alive)}", parse_mode="Markdown")
+        await context.bot.send_message(
+            chat_id,
+            f"⏳ Recordatorio: fase *{g.phase}*. Jugadores vivos: {sum(1 for p in g.players.values() if p.alive)}",
+            parse_mode="Markdown"
+        )
     except Exception:
         logger.exception("No pude enviar recordatorio")
 
