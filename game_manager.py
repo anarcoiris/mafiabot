@@ -16,7 +16,7 @@ from models import GameState, PlayerState
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_DB = "mafia_complete.db"
+DEFAULT_DB = "db/mafia_complete.db"
 
 
 class GameManager:

@@ -60,7 +60,7 @@ logger = logging.getLogger("mafia_complete")
 # ----------------------------
 from game_manager import GameManager
 
-DB_FILE = os.environ.get("MAFIA_DB", "mafia_complete.db")
+DB_FILE = os.environ.get("MAFIA_DB", "db/mafia_complete.db")
 GAME = GameManager(DB_FILE)
 DASH_TOKEN = os.environ.get("MAFIA_DASH_TOKEN", "superlirio")  # minimal dashboard token
 DASH_PORT = int(os.environ.get("MAFIA_DASH_PORT", "8006"))
