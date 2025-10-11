@@ -1,0 +1,43 @@
+FROM python:3.10-slim
+
+# Evitar buffering de salida (logs en tiempo real)
+ENV PYTHONUNBUFFERED=1
+
+# Crear usuario no-root
+RUN useradd -m -u 1000 mafiabot
+
+WORKDIR /app
+
+# Instalar dependencias del sistema para SQLite
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    sqlite3 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copiar requirements e instalar dependencias Python
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copiar código de la aplicación
+COPY core/ ./core/
+COPY persistence/ ./persistence/
+COPY bot/ ./bot/
+COPY utils/ ./utils/
+
+# Crear directorios necesarios
+RUN mkdir -p data logs && chown -R mafiabot:mafiabot /app
+
+# Cambiar a usuario no-root
+USER mafiabot
+
+# Volumen para persistencia
+VOLUME ["/app/data", "/app/logs"]
+
+# Puerto del dashboard (si se implementa)
+EXPOSE 8006
+
+# Healthcheck
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+  CMD python -c "import sqlite3; sqlite3.connect('data/mafia.db').close()" || exit 1
+
+# Comando de inicio
+CMD ["python", "-u", "bot/main.py"]

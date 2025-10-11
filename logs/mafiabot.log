@@ -1,0 +1,29 @@
+2025-10-11 23:54:38 [INFO] __main__ (main:70): Starting Mafia Bot...
+2025-10-11 23:54:38 [INFO] __main__ (main:71): Database: data/mafia.db
+2025-10-11 23:54:38 [INFO] persistence.migrations (migrations:111): Initialized database schema version 1
+2025-10-11 23:54:38 [INFO] persistence.database (database:67): Loaded 0 active games into cache
+2025-10-11 23:54:38 [INFO] persistence.database (database:47): GameRepository initialized with 0 games
+2025-10-11 23:54:38 [INFO] __main__ (main:80): Repository initialized
+2025-10-11 23:54:38 [INFO] __main__ (main:114): Bot is ready. Starting polling...
+2025-10-11 23:54:41 [INFO] __main__ (main:29): Running post-initialization tasks...
+2025-10-11 23:54:41 [INFO] __main__ (main:37): Active games rescheduled successfully
+2025-10-11 23:54:41 [INFO] apscheduler.scheduler (base:214): Scheduler started
+2025-10-11 23:54:41 [INFO] telegram.ext.Application (_application:630): Application started
+2025-10-11 23:59:00 [INFO] telegram.ext.Application (_application:664): Application is stopping. This might take a moment.
+2025-10-11 23:59:00 [INFO] apscheduler.scheduler (base:245): Scheduler has been shut down
+2025-10-11 23:59:00 [INFO] telegram.ext.Application (_application:700): Application.stop() complete
+2025-10-11 23:59:00 [INFO] __main__ (main:47): Running shutdown tasks...
+2025-10-11 23:59:00 [INFO] persistence.database (database:363): Shutting down repository, saving 0 games...
+2025-10-11 23:59:00 [INFO] persistence.database (database:374): Repository shutdown complete
+2025-10-11 23:59:00 [INFO] __main__ (main:54): Repository shutdown complete
+2025-10-11 23:59:08 [INFO] __main__ (main:70): Starting Mafia Bot...
+2025-10-11 23:59:08 [INFO] __main__ (main:71): Database: data/mafia.db
+2025-10-11 23:59:08 [INFO] persistence.migrations (migrations:116): Database schema is up to date (version 1)
+2025-10-11 23:59:08 [INFO] persistence.database (database:67): Loaded 0 active games into cache
+2025-10-11 23:59:08 [INFO] persistence.database (database:47): GameRepository initialized with 0 games
+2025-10-11 23:59:08 [INFO] __main__ (main:80): Repository initialized
+2025-10-11 23:59:08 [INFO] __main__ (main:114): Bot is ready. Starting polling...
+2025-10-11 23:59:08 [INFO] __main__ (main:29): Running post-initialization tasks...
+2025-10-11 23:59:08 [INFO] __main__ (main:37): Active games rescheduled successfully
+2025-10-11 23:59:08 [INFO] apscheduler.scheduler (base:214): Scheduler started
+2025-10-11 23:59:08 [INFO] telegram.ext.Application (_application:630): Application started
