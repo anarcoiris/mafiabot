@@ -27,3 +27,1735 @@
 2025-10-11 23:59:08 [INFO] __main__ (main:37): Active games rescheduled successfully
 2025-10-11 23:59:08 [INFO] apscheduler.scheduler (base:214): Scheduler started
 2025-10-11 23:59:08 [INFO] telegram.ext.Application (_application:630): Application started
+2025-10-12 08:59:11 [INFO] persistence.database (database:199): Created game -1001180460795 with host 513520328
+2025-10-12 08:59:11 [INFO] bot.handlers (handlers:51): Game -1001180460795 created by 513520328
+2025-10-12 08:59:20 [INFO] bot.handlers (handlers:89): Player 513520328 joined game -1001180460795
+2025-10-12 09:01:46 [INFO] bot.handlers (handlers:89): Player 34851982 joined game -1001180460795
+2025-10-12 11:24:23 [INFO] bot.handlers (handlers:89): Player 466638937 joined game -1001180460795
+2025-10-12 11:26:05 [INFO] persistence.database (database:199): Created game -365043219 with host 466638937
+2025-10-12 11:26:05 [INFO] bot.handlers (handlers:51): Game -365043219 created by 466638937
+2025-10-12 11:26:10 [INFO] bot.handlers (handlers:89): Player 466638937 joined game -365043219
+2025-10-12 11:26:52 [INFO] bot.handlers (handlers:372): Game -365043219 config updated: detective=1
+2025-10-12 11:27:07 [INFO] bot.handlers (handlers:372): Game -365043219 config updated: doctor=1
+2025-10-12 12:20:07 [INFO] bot.handlers (handlers:89): Player 203472739 joined game -1001180460795
+2025-10-12 16:13:56 [INFO] bot.handlers (handlers:89): Player 8008307836 joined game -1001180460795
+2025-10-12 16:33:51 [INFO] bot.handlers (handlers:89): Player 1967672322 joined game -1001180460795
+2025-10-12 16:58:59 [INFO] core.engine (engine:55): Assigned ciudadano to player 203472739
+2025-10-12 16:58:59 [INFO] core.engine (engine:55): Assigned mafia to player 513520328
+2025-10-12 16:58:59 [INFO] core.engine (engine:55): Assigned ciudadano to player 466638937
+2025-10-12 16:58:59 [INFO] core.engine (engine:55): Assigned ciudadano to player 34851982
+2025-10-12 16:58:59 [INFO] core.engine (engine:55): Assigned ciudadano to player 1967672322
+2025-10-12 16:58:59 [INFO] core.engine (engine:55): Assigned ciudadano to player 8008307836
+2025-10-12 16:59:00 [WARNING] bot.handlers (handlers:233): Could not DM player 8008307836: Forbidden: bot can't initiate conversation with a user
+2025-10-12 16:59:01 [WARNING] bot.handlers (handlers:233): Could not DM player 1967672322: Forbidden: bot can't initiate conversation with a user
+2025-10-12 16:59:01 [INFO] apscheduler.scheduler (base:1090): Added job "night_end_-1001180460795" to job store "default"
+2025-10-12 16:59:01 [INFO] bot.jobs (jobs:38): Scheduled night_end for game -1001180460795 in 300s
+2025-10-12 16:59:01 [INFO] apscheduler.scheduler (base:1090): Added job "reminder_-1001180460795" to job store "default"
+2025-10-12 16:59:01 [INFO] bot.jobs (jobs:111): Scheduled reminder for game -1001180460795 every 120s
+2025-10-12 16:59:01 [INFO] bot.handlers (handlers:254): Game -1001180460795 started with 6 players
+2025-10-12 16:59:31 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:01:31 UTC)" (scheduled at 2025-10-12 14:59:31.713903+00:00)
+2025-10-12 16:59:31 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:01:31 UTC)" executed successfully
+2025-10-12 17:01:31 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:03:31 UTC)" (scheduled at 2025-10-12 15:01:31.713903+00:00)
+2025-10-12 17:01:31 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:03:31 UTC)" executed successfully
+2025-10-12 17:03:31 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:05:31 UTC)" (scheduled at 2025-10-12 15:03:31.713903+00:00)
+2025-10-12 17:03:31 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:05:31 UTC)" executed successfully
+2025-10-12 17:04:01 [INFO] apscheduler.scheduler (base:728): Removed job 6ab0b9e05f30466881808a6ccc73825e
+2025-10-12 17:04:01 [INFO] apscheduler.executors.default (base:179): Running job "night_end_-1001180460795 (trigger: date[2025-10-12 15:04:01 UTC], next run at: 2025-10-12 15:04:01 UTC)" (scheduled at 2025-10-12 15:04:01.650998+00:00)
+2025-10-12 17:04:01 [INFO] bot.jobs (jobs:151): Resolving night for game -1001180460795
+2025-10-12 17:04:01 [INFO] core.engine (engine:244): Night resolved for game -1001180460795: 0 deaths, 0 total events
+2025-10-12 17:04:01 [INFO] apscheduler.scheduler (base:1090): Added job "day_end_-1001180460795" to job store "default"
+2025-10-12 17:04:01 [INFO] bot.jobs (jobs:64): Scheduled day_end for game -1001180460795 in 600s
+2025-10-12 17:04:01 [INFO] apscheduler.scheduler (base:728): Removed job 044475efedd649ac85870cce7decb5e4
+2025-10-12 17:04:01 [INFO] apscheduler.scheduler (base:1090): Added job "reminder_-1001180460795" to job store "default"
+2025-10-12 17:04:01 [INFO] bot.jobs (jobs:111): Scheduled reminder for game -1001180460795 every 120s
+2025-10-12 17:04:01 [INFO] apscheduler.executors.default (base:203): Job "night_end_-1001180460795 (trigger: date[2025-10-12 15:04:01 UTC], next run at: 2025-10-12 15:04:01 UTC)" executed successfully
+2025-10-12 17:04:31 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:06:31 UTC)" (scheduled at 2025-10-12 15:04:31.984878+00:00)
+2025-10-12 17:04:32 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:06:31 UTC)" executed successfully
+2025-10-12 17:06:32 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:08:31 UTC)" (scheduled at 2025-10-12 15:06:31.984878+00:00)
+2025-10-12 17:06:32 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:08:31 UTC)" executed successfully
+2025-10-12 17:08:31 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:10:31 UTC)" (scheduled at 2025-10-12 15:08:31.984878+00:00)
+2025-10-12 17:08:32 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:10:31 UTC)" executed successfully
+2025-10-12 17:10:32 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:12:31 UTC)" (scheduled at 2025-10-12 15:10:31.984878+00:00)
+2025-10-12 17:10:32 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:12:31 UTC)" executed successfully
+2025-10-12 17:12:31 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:14:31 UTC)" (scheduled at 2025-10-12 15:12:31.984878+00:00)
+2025-10-12 17:12:32 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:14:31 UTC)" executed successfully
+2025-10-12 17:14:01 [INFO] apscheduler.scheduler (base:728): Removed job 873dd51f98c04b01ad1dc8531fcbd86b
+2025-10-12 17:14:01 [INFO] apscheduler.executors.default (base:179): Running job "day_end_-1001180460795 (trigger: date[2025-10-12 15:14:01 UTC], next run at: 2025-10-12 15:14:01 UTC)" (scheduled at 2025-10-12 15:14:01.980878+00:00)
+2025-10-12 17:14:01 [INFO] bot.jobs (jobs:260): Day ended for game -1001180460795, starting voting
+2025-10-12 17:14:02 [INFO] apscheduler.scheduler (base:1090): Added job "voting_end_-1001180460795" to job store "default"
+2025-10-12 17:14:02 [INFO] bot.jobs (jobs:88): Scheduled voting_end for game -1001180460795 in 120s
+2025-10-12 17:14:02 [INFO] apscheduler.executors.default (base:203): Job "day_end_-1001180460795 (trigger: date[2025-10-12 15:14:01 UTC], next run at: 2025-10-12 15:14:01 UTC)" executed successfully
+2025-10-12 17:14:31 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:16:31 UTC)" (scheduled at 2025-10-12 15:14:31.984878+00:00)
+2025-10-12 17:14:32 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:16:31 UTC)" executed successfully
+2025-10-12 17:14:55 [INFO] bot.callbacks (callbacks:243): Day vote: 34851982 -> 8008307836
+2025-10-12 17:16:02 [INFO] apscheduler.scheduler (base:728): Removed job 19546e19f634429ba538098ab0807636
+2025-10-12 17:16:02 [INFO] apscheduler.executors.default (base:179): Running job "voting_end_-1001180460795 (trigger: date[2025-10-12 15:16:02 UTC], next run at: 2025-10-12 15:16:02 UTC)" (scheduled at 2025-10-12 15:16:02.295596+00:00)
+2025-10-12 17:16:02 [INFO] bot.jobs (jobs:300): Resolving votes for game -1001180460795
+2025-10-12 17:16:02 [INFO] apscheduler.scheduler (base:1090): Added job "night_end_-1001180460795" to job store "default"
+2025-10-12 17:16:02 [INFO] bot.jobs (jobs:38): Scheduled night_end for game -1001180460795 in 300s
+2025-10-12 17:16:02 [INFO] apscheduler.scheduler (base:728): Removed job 5f3697119ea84d699babf5bf7f6469fe
+2025-10-12 17:16:02 [INFO] apscheduler.scheduler (base:1090): Added job "reminder_-1001180460795" to job store "default"
+2025-10-12 17:16:02 [INFO] bot.jobs (jobs:111): Scheduled reminder for game -1001180460795 every 120s
+2025-10-12 17:16:02 [INFO] apscheduler.executors.default (base:203): Job "voting_end_-1001180460795 (trigger: date[2025-10-12 15:16:02 UTC], next run at: 2025-10-12 15:16:02 UTC)" executed successfully
+2025-10-12 17:16:32 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:18:32 UTC)" (scheduled at 2025-10-12 15:16:32.895479+00:00)
+2025-10-12 17:16:33 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:18:32 UTC)" executed successfully
+2025-10-12 17:18:32 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:20:32 UTC)" (scheduled at 2025-10-12 15:18:32.895479+00:00)
+2025-10-12 17:18:33 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:20:32 UTC)" executed successfully
+2025-10-12 17:20:32 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:22:32 UTC)" (scheduled at 2025-10-12 15:20:32.895479+00:00)
+2025-10-12 17:20:33 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:22:32 UTC)" executed successfully
+2025-10-12 17:21:02 [INFO] apscheduler.scheduler (base:728): Removed job cc5827aec860418baa92a101872a5060
+2025-10-12 17:21:02 [INFO] apscheduler.executors.default (base:179): Running job "night_end_-1001180460795 (trigger: date[2025-10-12 15:21:02 UTC], next run at: 2025-10-12 15:21:02 UTC)" (scheduled at 2025-10-12 15:21:02.887480+00:00)
+2025-10-12 17:21:02 [INFO] bot.jobs (jobs:151): Resolving night for game -1001180460795
+2025-10-12 17:21:02 [INFO] core.engine (engine:244): Night resolved for game -1001180460795: 0 deaths, 0 total events
+2025-10-12 17:21:03 [INFO] apscheduler.scheduler (base:1090): Added job "day_end_-1001180460795" to job store "default"
+2025-10-12 17:21:03 [INFO] bot.jobs (jobs:64): Scheduled day_end for game -1001180460795 in 600s
+2025-10-12 17:21:03 [INFO] apscheduler.scheduler (base:728): Removed job a8d5805ba0aa4a49ac16335e9cb8011c
+2025-10-12 17:21:03 [INFO] apscheduler.scheduler (base:1090): Added job "reminder_-1001180460795" to job store "default"
+2025-10-12 17:21:03 [INFO] bot.jobs (jobs:111): Scheduled reminder for game -1001180460795 every 120s
+2025-10-12 17:21:03 [INFO] apscheduler.executors.default (base:203): Job "night_end_-1001180460795 (trigger: date[2025-10-12 15:21:02 UTC], next run at: 2025-10-12 15:21:02 UTC)" executed successfully
+2025-10-12 17:21:33 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:23:33 UTC)" (scheduled at 2025-10-12 15:21:33.306097+00:00)
+2025-10-12 17:21:33 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:23:33 UTC)" executed successfully
+2025-10-12 17:23:33 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:25:33 UTC)" (scheduled at 2025-10-12 15:23:33.306097+00:00)
+2025-10-12 17:23:33 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:25:33 UTC)" executed successfully
+2025-10-12 17:25:33 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:27:33 UTC)" (scheduled at 2025-10-12 15:25:33.306097+00:00)
+2025-10-12 17:25:33 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:27:33 UTC)" executed successfully
+2025-10-12 17:27:33 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:29:33 UTC)" (scheduled at 2025-10-12 15:27:33.306097+00:00)
+2025-10-12 17:27:33 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:29:33 UTC)" executed successfully
+2025-10-12 17:29:33 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:31:33 UTC)" (scheduled at 2025-10-12 15:29:33.306097+00:00)
+2025-10-12 17:29:33 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:31:33 UTC)" executed successfully
+2025-10-12 17:31:03 [INFO] apscheduler.scheduler (base:728): Removed job a85f6108827f42359ba9de933c86d7c0
+2025-10-12 17:31:03 [INFO] apscheduler.executors.default (base:179): Running job "day_end_-1001180460795 (trigger: date[2025-10-12 15:31:03 UTC], next run at: 2025-10-12 15:31:03 UTC)" (scheduled at 2025-10-12 15:31:03.299097+00:00)
+2025-10-12 17:31:03 [INFO] bot.jobs (jobs:260): Day ended for game -1001180460795, starting voting
+2025-10-12 17:31:03 [INFO] apscheduler.scheduler (base:1090): Added job "voting_end_-1001180460795" to job store "default"
+2025-10-12 17:31:03 [INFO] bot.jobs (jobs:88): Scheduled voting_end for game -1001180460795 in 120s
+2025-10-12 17:31:03 [INFO] apscheduler.executors.default (base:203): Job "day_end_-1001180460795 (trigger: date[2025-10-12 15:31:03 UTC], next run at: 2025-10-12 15:31:03 UTC)" executed successfully
+2025-10-12 17:31:33 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:33:33 UTC)" (scheduled at 2025-10-12 15:31:33.306097+00:00)
+2025-10-12 17:31:33 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:33:33 UTC)" executed successfully
+2025-10-12 17:31:37 [INFO] bot.callbacks (callbacks:243): Day vote: 203472739 -> 1967672322
+2025-10-12 17:33:03 [INFO] apscheduler.scheduler (base:728): Removed job b017d57c9a374b3580e13b0a57eedb1c
+2025-10-12 17:33:03 [INFO] apscheduler.executors.default (base:179): Running job "voting_end_-1001180460795 (trigger: date[2025-10-12 15:33:03 UTC], next run at: 2025-10-12 15:33:03 UTC)" (scheduled at 2025-10-12 15:33:03.603390+00:00)
+2025-10-12 17:33:03 [INFO] bot.jobs (jobs:300): Resolving votes for game -1001180460795
+2025-10-12 17:33:04 [INFO] apscheduler.scheduler (base:1090): Added job "night_end_-1001180460795" to job store "default"
+2025-10-12 17:33:04 [INFO] bot.jobs (jobs:38): Scheduled night_end for game -1001180460795 in 300s
+2025-10-12 17:33:04 [INFO] apscheduler.scheduler (base:728): Removed job 2536676458294c448cc0997d4dad6f32
+2025-10-12 17:33:04 [INFO] apscheduler.scheduler (base:1090): Added job "reminder_-1001180460795" to job store "default"
+2025-10-12 17:33:04 [INFO] bot.jobs (jobs:111): Scheduled reminder for game -1001180460795 every 120s
+2025-10-12 17:33:04 [INFO] apscheduler.executors.default (base:203): Job "voting_end_-1001180460795 (trigger: date[2025-10-12 15:33:03 UTC], next run at: 2025-10-12 15:33:03 UTC)" executed successfully
+2025-10-12 17:33:30 [WARNING] bot.callbacks (callbacks:215): Could not notify mafia 513520328: 'CallbackQuery' object has no attribute 'bot'
+2025-10-12 17:33:30 [INFO] bot.callbacks (callbacks:217): Mafia vote: 513520328 -> 466638937
+2025-10-12 17:33:34 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:35:34 UTC)" (scheduled at 2025-10-12 15:33:34.258025+00:00)
+2025-10-12 17:33:34 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:35:34 UTC)" executed successfully
+2025-10-12 17:35:34 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:37:34 UTC)" (scheduled at 2025-10-12 15:35:34.258025+00:00)
+2025-10-12 17:35:34 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:37:34 UTC)" executed successfully
+2025-10-12 17:37:34 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:39:34 UTC)" (scheduled at 2025-10-12 15:37:34.258025+00:00)
+2025-10-12 17:37:34 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:39:34 UTC)" executed successfully
+2025-10-12 17:38:04 [INFO] apscheduler.scheduler (base:728): Removed job e5beb84d99ac4f6cbb4ab5b98770c27c
+2025-10-12 17:38:04 [INFO] apscheduler.executors.default (base:179): Running job "night_end_-1001180460795 (trigger: date[2025-10-12 15:38:04 UTC], next run at: 2025-10-12 15:38:04 UTC)" (scheduled at 2025-10-12 15:38:04.256026+00:00)
+2025-10-12 17:38:04 [INFO] bot.jobs (jobs:151): Resolving night for game -1001180460795
+2025-10-12 17:38:04 [INFO] core.engine (engine:244): Night resolved for game -1001180460795: 1 deaths, 1 total events
+2025-10-12 17:38:04 [INFO] apscheduler.scheduler (base:1090): Added job "day_end_-1001180460795" to job store "default"
+2025-10-12 17:38:04 [INFO] bot.jobs (jobs:64): Scheduled day_end for game -1001180460795 in 600s
+2025-10-12 17:38:04 [INFO] apscheduler.scheduler (base:728): Removed job 1812cf968f694471ad22bf1b3a2fd9df
+2025-10-12 17:38:04 [INFO] apscheduler.scheduler (base:1090): Added job "reminder_-1001180460795" to job store "default"
+2025-10-12 17:38:04 [INFO] bot.jobs (jobs:111): Scheduled reminder for game -1001180460795 every 120s
+2025-10-12 17:38:04 [INFO] apscheduler.executors.default (base:203): Job "night_end_-1001180460795 (trigger: date[2025-10-12 15:38:04 UTC], next run at: 2025-10-12 15:38:04 UTC)" executed successfully
+2025-10-12 17:38:34 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:40:34 UTC)" (scheduled at 2025-10-12 15:38:34.548678+00:00)
+2025-10-12 17:38:34 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:40:34 UTC)" executed successfully
+2025-10-12 17:40:34 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:42:34 UTC)" (scheduled at 2025-10-12 15:40:34.548678+00:00)
+2025-10-12 17:40:34 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:42:34 UTC)" executed successfully
+2025-10-12 17:42:34 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:44:34 UTC)" (scheduled at 2025-10-12 15:42:34.548678+00:00)
+2025-10-12 17:42:34 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:44:34 UTC)" executed successfully
+2025-10-12 17:43:38 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:43:39 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:43:40 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:43:42 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:43:46 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:43:51 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:43:58 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:44:10 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:44:27 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:44:34 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:46:34 UTC)" (scheduled at 2025-10-12 15:44:34.548678+00:00)
+2025-10-12 17:44:34 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:46:34 UTC)" executed successfully
+2025-10-12 17:44:53 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:45:23 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:45:53 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:46:28 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:46:29 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:46:30 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:46:32 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:46:34 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:48:34 UTC)" (scheduled at 2025-10-12 15:46:34.548678+00:00)
+2025-10-12 17:46:34 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:48:34 UTC)" executed successfully
+2025-10-12 17:46:36 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:46:48 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:46:49 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:46:50 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:46:53 [ERROR] telegram.ext.Application (_application:1934): No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 293, in do_request
+    res = await self._client.request(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\soyko\AppData\Roaming\Python\Python310\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_utils\networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 4605, in get_updates
+    await self._post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_baserequest.py", line 334, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\soyko\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\request\_httpxrequest.py", line 317, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-10-12 17:48:04 [INFO] apscheduler.scheduler (base:728): Removed job d7966434aaec405e9b8b9791468e5abe
+2025-10-12 17:48:04 [INFO] apscheduler.executors.default (base:179): Running job "day_end_-1001180460795 (trigger: date[2025-10-12 15:48:04 UTC], next run at: 2025-10-12 15:48:04 UTC)" (scheduled at 2025-10-12 15:48:04.546679+00:00)
+2025-10-12 17:48:04 [INFO] bot.jobs (jobs:260): Day ended for game -1001180460795, starting voting
+2025-10-12 17:48:04 [INFO] apscheduler.scheduler (base:1090): Added job "voting_end_-1001180460795" to job store "default"
+2025-10-12 17:48:04 [INFO] bot.jobs (jobs:88): Scheduled voting_end for game -1001180460795 in 120s
+2025-10-12 17:48:04 [INFO] apscheduler.executors.default (base:203): Job "day_end_-1001180460795 (trigger: date[2025-10-12 15:48:04 UTC], next run at: 2025-10-12 15:48:04 UTC)" executed successfully
+2025-10-12 17:48:18 [INFO] bot.callbacks (callbacks:243): Day vote: 203472739 -> 34851982
+2025-10-12 17:48:34 [INFO] apscheduler.executors.default (base:179): Running job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:50:34 UTC)" (scheduled at 2025-10-12 15:48:34.548678+00:00)
+2025-10-12 17:48:34 [INFO] apscheduler.executors.default (base:203): Job "reminder_-1001180460795 (trigger: interval[0:02:00], next run at: 2025-10-12 15:50:34 UTC)" executed successfully
+2025-10-12 17:50:04 [INFO] apscheduler.scheduler (base:728): Removed job 9c5f5073d8274f0e9f9091811c57bdc2
+2025-10-12 17:50:04 [INFO] apscheduler.executors.default (base:179): Running job "voting_end_-1001180460795 (trigger: date[2025-10-12 15:50:04 UTC], next run at: 2025-10-12 15:50:04 UTC)" (scheduled at 2025-10-12 15:50:04.846643+00:00)
+2025-10-12 17:50:04 [INFO] bot.jobs (jobs:300): Resolving votes for game -1001180460795
+2025-10-12 17:50:05 [INFO] apscheduler.scheduler (base:728): Removed job 4748462f0d754bd7977f66bc9f165915
+2025-10-12 17:50:05 [INFO] bot.jobs (jobs:127): Cancelled job reminder_-1001180460795
+2025-10-12 17:50:05 [INFO] apscheduler.executors.default (base:203): Job "voting_end_-1001180460795 (trigger: date[2025-10-12 15:50:04 UTC], next run at: 2025-10-12 15:50:04 UTC)" executed successfully
