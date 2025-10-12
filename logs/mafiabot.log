@@ -27,3 +27,16 @@
 2025-10-11 23:59:08 [INFO] __main__ (main:37): Active games rescheduled successfully
 2025-10-11 23:59:08 [INFO] apscheduler.scheduler (base:214): Scheduler started
 2025-10-11 23:59:08 [INFO] telegram.ext.Application (_application:630): Application started
+2025-10-12 08:59:11 [INFO] persistence.database (database:199): Created game -1001180460795 with host 513520328
+2025-10-12 08:59:11 [INFO] bot.handlers (handlers:51): Game -1001180460795 created by 513520328
+2025-10-12 08:59:20 [INFO] bot.handlers (handlers:89): Player 513520328 joined game -1001180460795
+2025-10-12 09:01:46 [INFO] bot.handlers (handlers:89): Player 34851982 joined game -1001180460795
+2025-10-12 11:24:23 [INFO] bot.handlers (handlers:89): Player 466638937 joined game -1001180460795
+2025-10-12 11:26:05 [INFO] persistence.database (database:199): Created game -365043219 with host 466638937
+2025-10-12 11:26:05 [INFO] bot.handlers (handlers:51): Game -365043219 created by 466638937
+2025-10-12 11:26:10 [INFO] bot.handlers (handlers:89): Player 466638937 joined game -365043219
+2025-10-12 11:26:52 [INFO] bot.handlers (handlers:372): Game -365043219 config updated: detective=1
+2025-10-12 11:27:07 [INFO] bot.handlers (handlers:372): Game -365043219 config updated: doctor=1
+2025-10-12 12:20:07 [INFO] bot.handlers (handlers:89): Player 203472739 joined game -1001180460795
+2025-10-12 16:13:56 [INFO] bot.handlers (handlers:89): Player 8008307836 joined game -1001180460795
+2025-10-12 16:33:51 [INFO] bot.handlers (handlers:89): Player 1967672322 joined game -1001180460795
