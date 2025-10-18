@@ -50,7 +50,7 @@ class Player:
     silenced: bool = False
     protected: bool = False
     dm_sent_ok: bool = False
-    
+
     def reset_night_status(self):
         """Resetea estados temporales de la noche."""
         self.blocked = False
@@ -72,7 +72,7 @@ class Game:
     chat_id: int
     host_id: int
     phase: Phase = Phase.LOBBY
-    
+
     # Configuración
     roles_config: Dict[str, int] = field(default_factory=lambda: {
         "mafia": 1,
@@ -81,29 +81,29 @@ class Game:
     night_seconds: int = 300
     day_seconds: int = 600
     periodic_reminder_seconds: int = 120
-    
+
     # Estado del juego
     players: Dict[int, Player] = field(default_factory=dict)
     night_actions: List[NightAction] = field(default_factory=list)
     day_votes: Dict[int, int] = field(default_factory=dict)  # voter_id -> target_id
     mafia_votes: Dict[int, int] = field(default_factory=dict)  # mafia_id -> target_id
-    
+
     # Control de tiempo
     phase_deadline: Optional[int] = None
     created_at: int = field(default_factory=lambda: int(time.time()))
     updated_at: int = field(default_factory=lambda: int(time.time()))
-    
+
     # Control de jobs (nombres de jobs programados)
     job_names: Set[str] = field(default_factory=set)
-    
+
     def get_alive_players(self) -> List[Player]:
         """Retorna lista de jugadores vivos."""
         return [p for p in self.players.values() if p.alive]
-    
+
     def get_dead_players(self) -> List[Player]:
         """Retorna lista de jugadores muertos."""
         return [p for p in self.players.values() if not p.alive]
-    
+
     def get_players_by_faction(self, faction: Faction) -> List[Player]:
         """Retorna jugadores vivos de una facción."""
         from .roles import ROLES  # Import local para evitar circular
@@ -112,7 +112,7 @@ class Game:
             if p.role_key and ROLES.get(p.role_key)
             and ROLES[p.role_key].faction == faction
         ]
-    
+
     def reset_to_lobby(self):
         """Resetea la partida al estado inicial."""
         self.phase = Phase.LOBBY
@@ -122,7 +122,7 @@ class Game:
         self.mafia_votes.clear()
         self.phase_deadline = None
         self.job_names.clear()
-        
+
         for player in self.players.values():
             player.role_key = None
             player.alive = True
@@ -130,16 +130,16 @@ class Game:
             player.silenced = False
             player.protected = False
             player.dm_sent_ok = False
-        
+
         self.updated_at = int(time.time())
-    
+
     def clear_night_state(self):
         """Limpia el estado específico de la noche."""
         self.night_actions.clear()
         self.mafia_votes.clear()
         for player in self.players.values():
             player.reset_night_status()
-    
+
     def clear_day_state(self):
         """Limpia el estado específico del día."""
         self.day_votes.clear()
@@ -156,3 +156,13 @@ class GameEvent:
     actor_id: Optional[int] = None
     target_id: Optional[int] = None
     details: Dict = field(default_factory=dict)
+
+@dataclass
+class ChatMessage:
+    """Mensaje de chat en el juego."""
+    sender_id: int
+    sender_name: str
+    text: str
+    channel: str  # "general", "mafia", "investigator"
+    timestamp: int = field(default_factory=lambda: int(time.time()))
+    recipient_id: Optional[int] = None  # Solo si es privado (futuro)

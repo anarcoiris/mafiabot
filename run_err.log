@@ -1,0 +1,6 @@
+object address  : 0000026B3E124640
+object refcount : 3
+object type     : 00007FF8C558CA80
+object type name: ValueError
+object repr     : ValueError('I/O operation on closed file')
+lost sys.stderr
